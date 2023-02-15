@@ -1,13 +1,13 @@
 package com.example.demo.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 //@AllArgsConstructor
 
-public @Data class AccountResponse{
+@Setter
+@Getter
+public class AccountResponse{
 	
 	private Integer accountNumber;
 
